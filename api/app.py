@@ -20,7 +20,8 @@ def process_query(q):
 million years ago"
     if q == "asteroids":
         return "Unknown"
-    
+
+
 @app.route("/query", methods=["GET"])
 def query():
     q_param = request.args.get('q')
