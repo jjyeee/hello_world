@@ -20,5 +20,5 @@ def process_query():
     if q_param == "dinosaurs":
         return "Dinosaurs ruled the Earth 200 million years ago"
     if q_param == "asteroids":
-        return "Unknown"    
-    
+        return "Unknown"
+   
