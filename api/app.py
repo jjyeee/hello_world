@@ -16,11 +16,11 @@ def submit():
 
 @app.route("/query", methods=["GET"])
 def process_query():
-    q_param=request.args.get('q')
+    q_param = request.args.get('q')
 
 
-    if q_param=="dinosaurs":
+    if q_param == "dinosaurs":
        return "Dinosaurs ruled the Earth 200 million years ago"
-    if q_param=="asteroids":
+    if q_param == "asteroids":
         return "Unknown"
     
